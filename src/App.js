@@ -12,7 +12,7 @@ function App() {
   const submitData = async (event) => {
 
     event.preventDefault();
-    const url = 'http://localhost:5000'
+    const url = 'https://sign-up-page-backend-two.vercel.app'
     //const formdata = new FormData(document.querySelector('#loginForm'))
     const userdata = {
       firstName,
